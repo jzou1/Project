@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+  </head>
+  <style>
+    table,
+    td,
+    th {
+      border: 1px solid black;
+      font-family: "Lucida Console", Courier, monospace;
+      font-size: 30px;
+    }
+    table {
+      table-layout: fixed;
+      width: auto;
+      border-collapse: collapse;
+    }
+    td {
+      width: 25%;
+    }
+  </style>
+  <body>
+    <table>
+        <tr>
+            <th><a href="index.html">YUXUAN MEI</a></th>
+            <th><a id="top"></a></th>
+            <th>
+              <ul style="list-style-type: none">
+                <li><a href="index.html">Artwork</a></li>
+                <li><a href="bio.html">Artist Statement</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </th>
+          </tr>
+      <tr>
+        <td>Contact</td>
+        <td>Feedback</td>
+        <td>copyright - Yuxuan Mei</td>
+      </tr>
+      <tr>
+        <td>Yuxuan Mei</td>
+        <td>
+          <form>
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              maxlength="100"
+              placeholder="name"
+            />
+          </form>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="emailto:meiy0128@163.com">meiy0128@163.com</a></td>
+        <td>
+          <form>
+            <label for="email">Email:</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              maxlength="100"
+              placeholder="email"
+            />
+          </form>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Xuhui, Shanghai, China</td>
+        <td>
+          <form>
+            <label for="comments">Leave a Reply:</label>
+            <textarea
+              name="comments"
+              id="comments"
+              cols="25"
+              rows="5"
+              placeholder="Enter your comment here..."
+            ></textarea>
+          </form>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <form>
+            <button type="submit" name="submit-button">Submit</button>
+          </form>
+        </td>
+        <td></td>
+      </tr>
+    </table>
+  </body>
+</html>
